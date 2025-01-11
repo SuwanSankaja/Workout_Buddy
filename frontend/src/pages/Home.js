@@ -17,7 +17,7 @@ const Home = () => {
       }
     }
     fetchWorkouts();
-  } , []); //component
+  } , [dispatch]); //component
 
   return (
     <div className='home'>
