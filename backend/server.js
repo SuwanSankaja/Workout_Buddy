@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import workoutsRouter from './routes/workouts.route.js';
+import mongoose from 'mongoose';
+import workoutsRouter from './routes/workout.route.js';
 dotenv.config();
 
 const app = express();
@@ -19,7 +20,12 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 }); 
 
-
-app.listen(PORT, () => {
-  console.log('Server is running on port:',PORT);
+mongoose.connect(process.env.MONGO_URI).then(()=> {
+  console.log('Connected to MongoDB');
+  app.listen(PORT, () => {
+    console.log('Server is running on port:',PORT);
+  });
+}).catch((error) => {
+  console.log(error);
 });
+
