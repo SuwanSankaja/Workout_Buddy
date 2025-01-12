@@ -20,7 +20,7 @@ This project follows the **MERN stack** architecture:
 ### Folder Structure
 
 ```
-MERN_Web_App/
+Workout_Buddy/
 ├── backend/         # Server-side code
 │   ├── controllers/ # Logic for API endpoints
 │   ├── models/      # MongoDB schemas
