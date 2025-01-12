@@ -48,7 +48,7 @@ Follow these steps to run the project locally.
 
    ```bash
    git clone https://github.com/SuwanSankaja/Workout_Buddy.git
-   cd MERN_Web_App
+   cd Workout_Buddy
    ```
 
 2. Install dependencies for the backend:
@@ -122,11 +122,11 @@ PORT=4000
 
 ### Home Page
 
-![Home Page](https://github.com/SuwanSankaja/Private_Files/blob/main/Workout_Buddy/homepage.png)
+![Home Page](https://github.com/SuwanSankaja/Workout_Buddy/blob/main/frontend/display_assets/homepage.png)
 
 ### Add a Workout
 
-![Add Workout](https://github.com/SuwanSankaja/Private_Files/blob/main/Workout_Buddy/add_a_new_product.png)
+![Add Workout](https://github.com/SuwanSankaja/Workout_Buddy/blob/main/frontend/display_assets/add_a_new_product.png)
 
 ## 🧑‍💻 Contributing
 
