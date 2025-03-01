@@ -122,11 +122,11 @@ PORT=4000
 
 ### Home Page
 
-![Home Page](https://github.com/SuwanSankaja/Workout_Buddy/blob/main/frontend/display_assets/homepage.png)
+![Home Page](https://filedn.eu/lVNP1DcGQUE5OPMMHbPaQeb/Workout%20Buddy/homepage.png)
 
 ### Add a Workout
 
-![Add Workout](https://github.com/SuwanSankaja/Workout_Buddy/blob/main/frontend/display_assets/add_a_new_product.png)
+![Add Workout](https://filedn.eu/lVNP1DcGQUE5OPMMHbPaQeb/Workout%20Buddy/add_a_new_product.png)
 
 ## 🧑‍💻 Contributing
 
